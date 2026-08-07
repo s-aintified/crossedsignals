@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crossed Signals</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=20260806-2202">
+</head>
+<body>
+  <main class="signal-app" id="signalApp">
+    <header class="signal-header">
+      <a class="signal-brand" href="#home" aria-label="Crossed Signals home">
+        <span>LOW SIGNAL</span>
+        <strong>CROSSED SIGNALS</strong>
+      </a>
+
+      <button class="saved-toggle" id="savedToggle" type="button" aria-controls="savedDrawer" aria-expanded="false">
+        SAVED FREQUENCIES
+        <span id="savedCount">0</span>
+      </button>
+    </header>
+
+    <section class="screen active" id="homeScreen" data-screen="home">
+      <div class="radio-shell">
+        <div class="radio-topline">
+          <span>RECEIVER ONLINE</span>
+          <span class="live-light"><i></i> READY</span>
+        </div>
+
+        <div class="display-window home-display">
+          <span class="display-label">SIGNAL STATUS</span>
+          <div class="ready-word">READY</div>
+          <div class="frequency-line" aria-hidden="true">
+            <span>87.7</span><span>91.3</span><span>95.6</span><span>101.8</span><span>104.2</span>
+            <i id="homeNeedle"></i>
+          </div>
+        </div>
+
+        <div class="home-actions">
+          <button class="radio-button primary" id="startScan" type="button">SIGNAL SCAN</button>
+          <button class="radio-button" id="startUnknown" type="button">UNKNOWN CALLER</button>
+          <button class="radio-button" id="openSaved" type="button">SAVED FREQUENCIES</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="screen" id="scanScreen" data-screen="scan">
+      <div class="scan-toolbar">
+        <button class="back-button" data-go="home" type="button">← HOME</button>
+        <span>CHARACTER DISCOVERY</span>
+      </div>
+
+      <div class="receiver-panel">
+        <div class="display-window scan-display" id="scanDisplay">
+          <span class="display-label" id="scanStatus">SIGNAL SCAN</span>
+          <strong id="frequencyReadout">87.7 FM</strong>
+          <div class="scan-track">
+            <span class="scan-glow" id="scanGlow"></span>
+            <i class="scan-needle" id="scanNeedle"></i>
+          </div>
+          <div class="scan-numbers" aria-hidden="true">
+            <span>87</span><span>91</span><span>95</span><span>99</span><span>103</span><span>107</span>
+          </div>
+        </div>
+
+        <div class="control-bank">
+          <div>
+            <span class="control-title">SIGNAL TYPE</span>
+            <div class="filter-controls" id="filterControls"></div>
+          </div>
+          <button class="scan-button" id="scanAgain" type="button">SCAN</button>
+        </div>
+      </div>
+
+      <div class="result-stage" id="resultStage" aria-live="polite">
+        <div class="empty-result">
+          <span>NO SIGNAL ACQUIRED</span>
+          <p>Choose a signal type and begin scanning.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="screen" id="unknownScreen" data-screen="unknown">
+      <div class="scan-toolbar">
+        <button class="back-button" data-go="home" type="button">← HOME</button>
+        <span>UNKNOWN CALLER</span>
+      </div>
+
+      <div class="unknown-layout">
+        <div class="unknown-console">
+          <div class="display-window unknown-display" id="unknownDisplay">
+            <span class="display-label" id="unknownStatus">TRANSMISSION READY</span>
+            <strong id="unknownFrequency">--.- FM</strong>
+            <div class="static-field" id="staticField"></div>
+          </div>
+          <button class="radio-button primary transmission-button" id="beginTransmission" type="button">BEGIN TRANSMISSION</button>
+        </div>
+
+        <div class="unknown-result" id="unknownResult">
+          <div class="empty-result">
+            <span>LINE SILENT</span>
+            <p>Begin a transmission to receive a character and encounter.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <aside class="saved-drawer" id="savedDrawer" aria-hidden="true">
+      <div class="saved-head">
+        <div>
+          <span>BOOKMARKED SIGNALS</span>
+          <strong><b id="savedDrawerCount">0</b> SAVED</strong>
+        </div>
+        <button id="closeSaved" type="button" aria-label="Close saved frequencies">×</button>
+      </div>
+      <div class="saved-list" id="savedList"></div>
+    </aside>
+    <div class="drawer-shade" id="drawerShade"></div>
+  </main>
+
+  <script src="characters.js?v=20260806-2202"></script>
+  <script src="encounters.js?v=20260806-2202"></script>
+  <script src="app.js?v=20260806-2202"></script>
+</body>
+</html>
