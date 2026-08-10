@@ -1,22 +1,24 @@
 
 const SIGNAL_CHARACTERS = [
   {
-    id: "saint",
-    name: "saint",
-    age: 31,
-    occupation: "Site Admin",
-    relationship: "Open",
-    group: "Admin",
-    image: "https://media2.giphy.com/media/v1.Y2lkPTZjMDliOTUyZGEyN3JjOGtjbnFrNDBkdDJsN3IzOG0weGVpd2M3ZmRjMGV5b3kxZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3ohhwJLZ2P9KOt3Z6w/giphy.gif",
-    hook: "Test signal for Crossed Signals.",
-    seeking: ["Friends", "Family", "Rivalry"],
-    categories: ["friends", "family", "rivals", "open"],
-    tags: ["Community Ties", "History", "Bad Decisions", "Anything Goes", "Random Encounters"],
-    profile: "https://lowsignal.jcink.net/index.php?showuser=1",
-    memberId: 1,
+ 
+    id: "renata-solis-vega",
+    name: "renata solis-vega",
+    age: 22,
+    occupation: "barista / actress",
+    relationship: "single pringle",
+    group: "Longwave",
+    image: "https://d.l3n.co/bCgJ2z.jpg",
+    hook: "equal parts full of herself & full of anxiety. theater kid turned theater adult.",
+    seeking: ["Romance", "Friends", "Family", "Rivalry", "Coworkers", "Neighbors", "Open"],
+    categories: ["romance", "friends", "family", "rivals", "coworkers", "neighbors", "open"],
+    tags: ["Casual", "Complicated", "Found Family", "Unexpected Friends", "Rivals", "Frenemies", "Family", "Extended Family", "Coworkers", "Neighbors", "Community Ties", "Long-Term", "Short-Term", "Open Threads", "Random Encounters", "Anything Goes"],
+    profile: "https://lowsignal.jcink.net/index.php?showuser=32",
+    memberId: 32,
     open: true,
     unknownCaller: true
-  },
+},
+
   {
     id: "spooky",
     name: "Spooky",
