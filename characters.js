@@ -70,5 +70,21 @@ const SIGNAL_CHARACTERS = [
     open: false,
     unknownCaller: true
   },
-
+{
+    id: "alan-pinehurst",
+    name: "Alan Pinehurst",
+    age: 31,
+    occupation: "Licensed Educational Psychologist",
+    relationship: "single",
+    group: "Wavelength",
+    image: "https://s13.gifyu.com/images/bIx7q.gif",
+    hook: "a garage band skater kid from semi-rural southern california managed to trip and fall into a chronically underpaid and thanklessly high-pressure career field. alan's staring down the barrel of an early-onset midlife crisis, having missed out on the opportunity to explore his own identity prior to the age of 30. please make it worse <3",
+    seeking: ["Romance", "Friends", "Coworkers", "Open"],
+    categories: ["romance", "friends", "coworkers", "open"],
+    tags: ["Slow Burn", "Casual", "Complicated", "Childhood Friends", "Unexpected Friends", "Enemies", "Frenemies", "Trouble", "Extended Family", "Coworkers", "Community Ties", "History", "Strangers", "Long-Term", "Short-Term", "Random Encounters"],
+    profile: "https://lowsignal.jcink.net/index.php?showuser=37",
+    memberId: 37,
+    open: true,
+    unknownCaller: true
+},
 ];
