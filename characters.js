@@ -122,4 +122,21 @@ const SIGNAL_CHARACTERS = [
     open: true,
     unknownCaller: true
 },
+  {
+    id: "milo-winter",
+    name: "milo winter",
+    age: 32,
+    occupation: "hs swim coach",
+    relationship: "it's complicated",
+    group: "Wavelength",
+    image: "https://64.media.tumblr.com/1a9c7179aafbc0f2b6a848ea927fd39a/2942f38fb07a9b3a-fb/s1280x1920/67dd860fed4f6855bcb2c297a3c285e46121bf73.jpg",
+    hook: "milo is like sunshine in human form.  he's happy, bright, and tries to make other people happy.  making others happy makes him happy, so it's a pretty good trade off.  however, it's not unbelievable that this tendency would annoy certain people.  he's generally the stable one in most relationships.  sort of a solid place for you to land if you need to.",
+    seeking: ["Friends", "Family", "Rivalry", "Coworkers", "Neighbors"],
+    categories: ["friends", "family", "rivals", "coworkers", "neighbors", "open"],
+    tags: ["Exes", "Old Flames", "Unrequited", "Friends", "Best Friends", "Found Family", "Childhood Friends", "Unexpected Friends", "Rivals", "Enemies", "Frenemies", "Bad Blood", "Tension", "Trouble", "Family", "Siblings", "Extended Family", "Coworkers", "Neighbors", "Regulars", "Community Ties", "History", "Strangers", "Long-Term", "Short-Term", "Open Threads", "Random Encounters"],
+    profile: "https://lowsignal.jcink.net/index.php?showuser=52",
+    memberId: 52,
+    open: true,
+    unknownCaller: false
+},
 ];
