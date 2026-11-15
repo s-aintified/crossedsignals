@@ -137,4 +137,38 @@ const SIGNAL_CHARACTERS = [
     open: true,
     unknownCaller: false
 },
+  {
+    id: "romy-sinclair",
+    name: "romy sinclair",
+    age: 24,
+    occupation: "socialite/aspiring actress",
+    relationship: "happily single",
+    group: "Echo",
+    image: "https://64.media.tumblr.com/f5bdc61cf92f85e08330fbcbebf03d4f/19767fd7b010124e-25/s250x400/0474187f0d7af40cadba8ea26c475907562ad4a6.gif",
+    hook: "romy is a socialite that really thinks it's time she do something on her own.  however, she's her own worst enemy and constantly self sabotages.  join in that fun!  she goes out a lot, so she meets a lot of people, and she's very willing and able to city hop.  after all, every city has a different party!  there's also opportunities for other socialite sorts, actresses/actors, parents...  really all the things.  over all, romy's not a bad person.  she just makes bad choices.",
+    seeking: ["Romance", "Friends", "Family", "Rivalry", "Coworkers", "Neighbors", "Open"],
+    categories: ["romance", "friends", "family", "rivals", "coworkers", "neighbors", "open"],
+    tags: ["Slow Burn", "Casual", "Exes", "Old Flames", "Unrequited", "Complicated", "Second Chances", "Friends", "Best Friends", "Found Family", "Childhood Friends", "Unexpected Friends", "Rivals", "Enemies", "Frenemies", "Bad Blood", "Tension", "Trouble", "Family", "Extended Family", "Estranged Family", "Coworkers", "Neighbors", "Regulars", "Community Ties", "Secrets", "Bad Decisions", "History", "Strangers", "Long-Term", "Short-Term", "Open Threads", "Random Encounters", "Anything Goes"],
+    profile: "https://lowsignal.jcink.net/index.php?showuser=55",
+    memberId: 55,
+    open: true,
+    unknownCaller: false
+},
+  {
+    id: "elliot-ryan",
+    name: "elliot ryan",
+    age: 23,
+    occupation: "bartender",
+    relationship: "single pringle",
+    group: "Admin",
+    image: "https://64.media.tumblr.com/930eaf047bff55ae8b6b142fd7424acc/23c92ef2ca90ab25-65/s500x750/dc412ed5e0322e709623613f288433ade9b9fbea.pnj",
+    hook: "elliot is genuinely sweet, bubbly, and caring.  she likes people and she wants to make them happy, cheer them up, just be a good presence.  mostly because she's also a weredingo and once a month she's forced to be a tiny little monster.  she's short, kind of doll faced, but a firecracker.  she loves to make rash choices because those are always the most fun.  she'll talk to anyone, seeing as she's a bartender.  so hit her up for a load of potential opportunities.",
+    seeking: ["Romance", "Friends", "Rivalry", "Coworkers", "Neighbors"],
+    categories: ["romance", "friends", "rivals", "coworkers", "neighbors", "open"],
+    tags: ["Slow Burn", "Casual", "Exes", "Old Flames", "Unrequited", "Complicated", "Second Chances", "Friends", "Best Friends", "Found Family", "Childhood Friends", "Unexpected Friends", "Rivals", "Enemies", "Frenemies", "Bad Blood", "Tension", "Trouble", "Coworkers", "Neighbors", "Roommates", "Regulars", "Community Ties", "Secrets", "Bad Decisions", "History", "Strangers", "Long-Term", "Short-Term", "Open Threads", "Random Encounters", "Anything Goes"],
+    profile: "https://lowsignal.jcink.net/index.php?showuser=75",
+    memberId: 75,
+    open: true,
+    unknownCaller: true
+},
 ];
