@@ -18,8 +18,6 @@ const SIGNAL_CHARACTERS = [
     open: true,
     unknownCaller: true
 },
-
-  {
 {
     id: "jupiter-feldspar",
     name: "Jupiter Feldspar",
