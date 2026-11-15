@@ -1,4 +1,3 @@
-
 const SIGNAL_CHARACTERS = [
   {
  
@@ -18,7 +17,8 @@ const SIGNAL_CHARACTERS = [
     open: true,
     unknownCaller: true
 },
-{
+
+  {
     id: "jupiter-feldspar",
     name: "Jupiter Feldspar",
     age: 32,
