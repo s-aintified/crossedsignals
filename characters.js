@@ -105,4 +105,21 @@ const SIGNAL_CHARACTERS = [
     open: true,
     unknownCaller: true
 },
+  {
+    id: "xenia-drake",
+    name: "xenia drake",
+    age: 26,
+    occupation: "advice podcaster",
+    relationship: "single-ish",
+    group: "PirateSignal",
+    image: "https://64.media.tumblr.com/ba4acd9bcc67bb150011cee6448b8417/7975a2304ee9d87b-16/s500x750/ad6b7826b8a83cffe31a2ae157c71fdf06129f6e.pnj",
+    hook: "xenia is a siren based in new york city and right now she's looking for two love interests in particular (check out her profile!).  other than that, xenia is pretty open!  she has a close found-family sort of friend group.  if you like xenia, we can always find a thing to write about.  old friends, new friends, maybe distant family even?  her parents aren't currently around, but that's cool!",
+    seeking: ["Romance", "Friends", "Rivalry", "Neighbors"],
+    categories: ["romance", "friends", "rivals", "neighbors", "open"],
+    tags: ["Slow Burn", "Exes", "Old Flames", "Unrequited", "Second Chances", "Friends", "Best Friends", "Childhood Friends", "Rivals", "Enemies", "Frenemies", "Bad Blood", "Neighbors", "Community Ties", "Bad Decisions", "History", "Strangers", "Long-Term", "Short-Term", "Open Threads", "Random Encounters"],
+    profile: "https://lowsignal.jcink.net/index.php?showuser=50",
+    memberId: 50,
+    open: true,
+    unknownCaller: true
+},
 ];
