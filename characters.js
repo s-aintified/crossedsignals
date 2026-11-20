@@ -154,5 +154,22 @@ const SIGNAL_CHARACTERS = [
     open: true,
     unknownCaller: true
 },
-  
+  {
+    id: "roxanne-solis",
+    name: "roxanne solis",
+    age: 23,
+    occupation: "broadcasting major",
+    relationship: "single",
+    group: "carrierwave",
+    image: "https://64.media.tumblr.com/d9612020b72fca58f0537e5102ce31d1/369489429c04cfff-cc/s540x810/ddf1a5fc94523089794ed6962eeaf8a4e7fb15be.gif",
+    hook: "Roxi's family is mega important to her, so as long as you get along with them you're probably okay.  but getting along with Roxi can be a lot harder.  she's stubborn, brave to the point of stupid, and wildly impulsive.  she's also very sarcastic, which turns a lot of people away.",
+    seeking: ["Romance", "Friends", "Rivalry", "Coworkers", "Neighbors"],
+    categories: ["romance", "friends", "rivals", "coworkers", "neighbors", "open"],
+    tags: ["Slow Burn", "Casual", "Exes", "Old Flames", "Unrequited", "Complicated", "Second Chances", "Friends", "Best Friends", "Found Family", "Childhood Friends", "Unexpected Friends", "Rivals", "Enemies", "Frenemies", "Bad Blood", "Tension", "Trouble", "Coworkers", "Neighbors", "Roommates", "Regulars", "Community Ties", "Secrets", "Bad Decisions", "History", "Strangers", "Long-Term", "Short-Term", "Open Threads", "Random Encounters"],
+    profile: "https://lowsignal.jcink.net/index.php?showuser=67",
+    memberId: 67,
+    open: true,
+    unknownCaller: true
+},
+
 ];
