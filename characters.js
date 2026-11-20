@@ -1,22 +1,5 @@
 const SIGNAL_CHARACTERS = [
-  {
- 
-    id: "renata-solis-vega",
-    name: "renata solis-vega",
-    age: 22,
-    occupation: "barista / actress",
-    relationship: "single pringle",
-    group: "Longwave",
-    image: "https://d.l3n.co/bCgJ2z.jpg",
-    hook: "equal parts full of herself & full of anxiety. theater kid turned theater adult.",
-    seeking: ["Romance", "Friends", "Family", "Rivalry", "Coworkers", "Neighbors", "Open"],
-    categories: ["romance", "friends", "family", "rivals", "coworkers", "neighbors", "open"],
-    tags: ["Casual", "Complicated", "Found Family", "Unexpected Friends", "Rivals", "Frenemies", "Family", "Extended Family", "Coworkers", "Neighbors", "Community Ties", "Long-Term", "Short-Term", "Open Threads", "Random Encounters", "Anything Goes"],
-    profile: "https://lowsignal.jcink.net/index.php?showuser=32",
-    memberId: 32,
-    open: true,
-    unknownCaller: true
-},
+  
 
   {
     id: "jupiter-feldspar",
