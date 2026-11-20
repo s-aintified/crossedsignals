@@ -143,7 +143,7 @@ const SIGNAL_CHARACTERS = [
     age: 23,
     occupation: "bartender",
     relationship: "single pringle",
-    group: "Admin",
+    group: "GhostSignal",
     image: "https://64.media.tumblr.com/930eaf047bff55ae8b6b142fd7424acc/23c92ef2ca90ab25-65/s500x750/dc412ed5e0322e709623613f288433ade9b9fbea.pnj",
     hook: "elliot is genuinely sweet, bubbly, and caring.  she likes people and she wants to make them happy, cheer them up, just be a good presence.  mostly because she's also a weredingo and once a month she's forced to be a tiny little monster.  she's short, kind of doll faced, but a firecracker.  she loves to make rash choices because those are always the most fun.  she'll talk to anyone, seeing as she's a bartender.  so hit her up for a load of potential opportunities.",
     seeking: ["Romance", "Friends", "Rivalry", "Coworkers", "Neighbors"],
@@ -154,4 +154,5 @@ const SIGNAL_CHARACTERS = [
     open: true,
     unknownCaller: true
 },
+  
 ];
