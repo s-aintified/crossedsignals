@@ -30,12 +30,11 @@
 .Echo, .echo { --g1:251,139,36; --g2:217,3,104; --g3:130,2,99; }
 .SignalBoost, .signalboost { --g1:255,234,61; --g2:61,220,255; --g3:30,58,95; }
 .WhiteNoise, .whitenoise { --g1:216,203,176; --g2:143,168,140; --g3:176,204,208; }
-.PirateSignal, .piratesignal { --g1:255,71,136; --g2:93,148,172; --g3:255,122,40; }
+.PirateSignal, .piratesignal { --g1:255,71,136; --g2:93,148,172; --g3:223,83,1; }
 .Backchannel, .backchannel { --g1:179,156,77; --g2:118,137,72; --g3:35,59,67; }
 .Longwave, .longwave { --g1:208,173,167; --g2:70,110,160; --g3:20,40,80; }
-.Guest, .guest { --g1:217,142,59; --g2:122,111,196; --g3:95,201,214; }
-.Admin, .admin { --g1:174,230,75; --g2:95,201,214; --g3:18,18,18; }
-.Unsorted, .unsorted { --g1:232,92,58; --g2:206,242,120; --g3:30,30,30; }
+.CarrierWave, .carrierwave { --g1:96,170,112; --g2:236,226,200; --g3:172,82,42; }
+.GhostSignal, .ghostsignal { --g1:166,223,242; --g2:190,176,240; --g3:46,46,58; }
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; background: var(--bg); }
